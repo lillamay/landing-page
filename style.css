@@ -23,6 +23,7 @@ header {
 }
 
 /*The hero section*/
+
 .hero-logo{
     /* filter: blur(2px); */
     width: 100%;
@@ -36,4 +37,36 @@ header {
     width: 256px;
     flex-wrap: wrap;
     color: white;
+}
+
+/* project overview */
+
+section.projectoverview{ 
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 18px 56px;
+    color: white;
+    align-items: center;
+}
+
+
+ul.project{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 24px;
+    justify-content: center;
+}
+
+.project li{
+    width: 200px;
+}
+.projectimage {
+    width: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
